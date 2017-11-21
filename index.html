@@ -1,0 +1,51 @@
+<!--<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Captura de Bicicletas</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de bicicletas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="Registrar_bicicleta.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="form.js"></script>
+
+</head>
+<body>
+
+
+<div class="col-12">
+
+	<header class= "header">
+		<h1>Sistema: Renta de Bicicletas</h1>
+		<h3>Registra una bicicleta</h3>
+	</header>
+
+	<div class="col-6" >
+		<img src="Bici.jpg" width="100%" height="auto">
+	</div>
+
+	<div class="col-6" >
+	<h3>Rellena el formulario:</h3>
+
+
+	<form action="enviar.php" method="POST" >
+		<!--<textarea name="folio" placeholder="Folio" required></textarea>-->
+		<textarea name="modelo" placeholder="Modelo" required></textarea>
+		<br>
+		<textarea name ="marca" placeholder="Marca" required></textarea>
+		<br>
+		<textarea name="img" placeholder="Ruta de imagen" required></textarea>
+		<br>
+		<input type="submit" value="Enviar" id="boton">
+	</form>
+</body>
+</html>
